@@ -3,21 +3,36 @@
         <title>Find Covid</title>
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="code.js"></script>
+
+        <style>
+
+            @font-face { font-family: Shadow Of the Deads; src: url('Shadow Of the Deads.ttf'); } 
+            h1 {
+                font-family: Shadow Of the Deads
+            }
+
+
+            @font-face { font-family: Shadow Of the Deads Over; src: url('Shadow Of the Deads Over.ttf'); } 
+            button {
+                font-family: Shadow Of the Deads Over
+            }
+            p {
+                font-family: Shadow Of the Deads Over
+            }
+            
+            h1 {text-align: center;}
+            p {text-align: center;}
+            button {text-align: center;}
+            img {text-align: center;}
+        </style>
     </head>
     <body>
   
 
-        <h1>Find Covid</h1>
-        <img src="G3M_Wheres_Waldo.jpeg" width = "700" height = "500"/>
 
-
-        <img src="Character.Waldo.jpg" width = "100" height = "100" onclick="found()"/>
-        <p id="found-text" class="hide">You found it!</p>
-
-        <img id="layer1" src="Coronavirus.jpg"/>
-        <img id="layer2" src="Character.Waldo.jpg"/>
-
-
+        <img id="layer1" src="G3M_Wheres_Waldo.jpeg" width = "600" height = "400"/>
+        <img id="layer2" src="covid_guy.jpg" width = "50" height = "50" onclick="found()"/>
+        <p id="found-text" class="hide">HOORAY!</p>
 
     </body>
 </html>
