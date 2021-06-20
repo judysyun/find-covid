@@ -1,3 +1,3 @@
 # hackworks
 
-find-covid is a game where you find covid.
+A pandemic-themed Where's Waldo? that educates children on COVID-19.
